@@ -6,13 +6,10 @@
 
 /* Här Har vi fixat klart body med backgrunds bild och textstil inom body och storleken. */
 body {
-  min-height: 100vh;
-  background-image: url(bilder/Hero.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
 }
+
+
 
 main {
   margin: 0px 0px 0px 0px;

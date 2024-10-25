@@ -1,0 +1,130 @@
+/* Tar bort all margin och padding från defult */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Här Har vi fixat klart body med backgrunds bild och textstil inom body och storleken. */
+  body {
+    
+  }
+  
+  
+  
+  main {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  /* fixat storleken på navigeringsmeny och bredden mellan varje lista */
+  .navi li {
+    height: 50px;
+    width: 475px;
+  }
+  
+  /* Färg och plats på navigeringsmeny */
+  .navi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  /* rensat lite defult inställningar */
+  .navi ul {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  .navi a {
+    color: rgba(3, 0, 0, 0.973);
+    text-decoration: none;
+    padding: 8px;
+    display: block;
+    text-align: center;
+    margin: 7px;
+  }
+  
+  .navi a:hover {
+    background-color: rgba(250, 246, 246, 0.979);
+  }
+  
+  .navi li {
+    float: left;
+  }
+  
+  footer {
+    padding: 700px 0px 0px 90%;
+  }
+  
+  
+  body {min-height: 100vh;
+    background-image: url(bilder/pexels-edward-jenner-4252522.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+        .csharp2 img {
+    position: absolute;
+    top: 21%;
+    left: 4.4%;
+    width: 300px;
+  }
+  .csharp2 h2 {
+    position: absolute;
+    top: 29.8%;
+    left: 16%;
+    width: 550px;
+  }
+  
+  .htmlbild2 img {
+    position: absolute;
+    top: 49%;
+    left: 6.6%;
+    width: 170px;
+  }
+  .htmlbild2 h2 {
+    position: absolute;
+    top: 59%;
+    left: 16.2%;
+    width: 550px;
+  }
+  
+  .cssbild2 img {
+  
+    position: absolute;
+    width: 260px;
+    top: 23%;
+    left: 49.5%;
+  }
+
+  .cssbild2 h2 {
+  
+    position: absolute;
+    width: 500px;
+    top: 30%;
+    left: 58%;
+
+  }
+  
+  .javascript2 img {
+  
+    position: absolute;
+    width: 290px;
+    top: 53%;
+    left: 48.7%;
+  }
+
+  .javascript2 h2 {
+  
+    position: absolute;
+    width: 550px;
+    top: 60%;
+    left: 60%;
+  }
