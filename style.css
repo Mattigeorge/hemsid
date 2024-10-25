@@ -19,6 +19,7 @@ main {
   padding: 0px;
   text-align: center;
 }
+
 /* fixat storleken på navigeringsmeny och bredden mellan varje lista */
 .navi li {
   height: 50px;
@@ -41,6 +42,7 @@ main {
   overflow: hidden;
   list-style-type: none;
 }
+
 .navi a {
   color: rgba(3, 0, 0, 0.973);
   text-decoration: none;
@@ -57,6 +59,7 @@ main {
 .navi li {
   float: left;
 }
+
 footer {
   padding: 700px 0px 0px 90%;
 }
@@ -71,4 +74,36 @@ footer {
   padding: 10px;
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
+}
+
+
+/* Här har jag justerat dem små 4 bilderna för kurserna */
+.csharp img {
+  position: absolute;
+  top: 69%;
+  left: 0%;
+  width: 300px;
+}
+
+.htmlbild img {
+  position: absolute;
+  top: 70%;
+  left: 16%;
+  width: 150px;
+}
+
+.cssbild img {
+
+  position: absolute;
+  width: 249px;
+  top: 70%;
+  left: 25%;
+}
+
+.javascript img {
+
+  position: absolute;
+  width: 285px;
+  top: 70%;
+  left: 36%;
 }

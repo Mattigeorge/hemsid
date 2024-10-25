@@ -1,44 +1,71 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Startsida</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .rubrik {
-        text-align: center;
-        font-family: Georgia, "Times New Roman", Times, serif;
-      }
-    </style>
-  </head>
 
-  <body>
-    <header>
-      <h1 class="rubrik">CodeAcademy</h1>
-      <nav class="navi">
-        <ul>
-          <li><a href="hemsida.html">Startsida</a></li>
-          <li><a href="anmalan.html">Kurser</a></li>
-          <li><a href="slutsida.html">Kursöversikt</a></li>
-          <li><a href="kontakt.html">kontakta oss</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <title>Startsida</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .rubrik {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+  </style>
+</head>
 
-    <main>
-    <div class="företagsbeskrivning">
-            <div class="startstyke">
-                <h2>Välkommen till våra kurser</h2>
-                <p>Välkommen till CodeAcademy! Vi specialiserar oss på att erbjuda högkvalitativa onlinekurser inom webbutveckling, inklusive HTML, CSS, C#, och JavaScript.</p><br>
-                <p>Vårt mål är att hjälpa dig att utveckla dina programmeringskunskaper oavsett om du är nybörjare eller erfaren utvecklare. På CodeAcademy tror vi på lärande genom praktiska övningar och interaktiva lektioner som gör det enkelt och roligt att komma igång med kodning.</p><br>
-                <p>Våra kurser är utformade för att passa olika kunskapsnivåer, från grundläggande introduktioner till avancerade tekniker.</p><br>
-                <p>Med ett engagerat team av erfarna instruktörer och utvecklare strävar vi efter att ge våra studenter den kunskap och de verktyg de behöver för att lyckas i en snabbt växande bransch. Genom att kombinera teori och praktik ger vi dig den bästa möjliga utbildningsupplevelsen.Börja din resa mot att bli en fullfjädrad utvecklare med CodeAcademy idag!</p>
+<body>
+  <header>
+    <!-- Rubrik och Navigerings Bar-->
+    <h1 class="rubrik">CodeAcademy</h1>
+    <nav class="navi">
+      <ul>
+        <li><a href="hemsida.html">Startsida</a></li>
+        <li><a href="anmalan.html">Kurser</a></li>
+        <li><a href="slutsida.html">Kursöversikt</a></li>
+        <li><a href="kontakt.html">kontakta oss</a></li>
+      </ul>
+    </nav>
+  </header>
 
-            </div>
-    </main>
+  <main>
+    <div>
+      <!--Text Stycke till framsidan-->
+      <div class="startstyke">
+        <h2>Välkommen till våra kurser</h2>
+        <p>Välkommen till CodeAcademy! Vi specialiserar oss på att erbjuda högkvalitativa onlinekurser inom
+          webbutveckling, inklusive HTML, CSS, C#, och JavaScript.</p><br>
+        <p>Vårt mål är att hjälpa dig att utveckla dina programmeringskunskaper oavsett om du är nybörjare eller erfaren
+          utvecklare. På CodeAcademy tror vi på lärande genom praktiska övningar och interaktiva lektioner som gör det
+          enkelt och roligt att komma igång med kodning.</p><br>
+        <p>Våra kurser är utformade för att passa olika kunskapsnivåer, från grundläggande introduktioner till
+          avancerade tekniker.</p><br>
+        <p>Med ett engagerat team av erfarna instruktörer och utvecklare strävar vi efter att ge våra studenter den
+          kunskap och de verktyg de behöver för att lyckas i en snabbt växande bransch. Genom att kombinera teori och
+          praktik ger vi dig den bästa möjliga utbildningsupplevelsen.Börja din resa mot att bli en fullfjädrad
+          utvecklare med CodeAcademy idag!</p>
+      </div>
+      <!-- 4 bilder för kurserna till framsidan-->
+      <div>
+        <div class="csharp">
+          <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*_NVBTVdmjt3Qvq3CZOySXg.png" alt="C# Kurs">
+        </div>
+        <div class="htmlbild">
+          <img src="https://soltech.net/wp-content/uploads/2014/05/HTML5.webp" alt="HTML Kurs">
+        </div>
+        <div class="cssbild">
+          <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo-2048x1280.png">
+        </div>
+        <div class="javascript">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=zrcrB8lfoVmZo0LcSLgut3A_4PwE6YFe9EK3iy17L2Y">
+        </div>
 
-    <footer>
-      <p>Kontaktinformation</p>
-    </footer>
-  </body>
+      </div>
+  </main>
+
+  <footer>
+    <p>Kontaktinformation</p>
+  </footer>
+</body>
+
 </html>
