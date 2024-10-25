@@ -1,5 +1,3 @@
-
-
 /* Tar bort all margin och padding från defult */
 * {
   margin: 0;
@@ -8,14 +6,12 @@
 
 /* Här Har vi fixat klart body med backgrunds bild och textstil inom body och storleken. */
 body {
-
-min-height: 100vh;
-background-image:url(bilder/Hero.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  min-height: 100vh;
+  background-image: url(bilder/Hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -23,15 +19,22 @@ main {
   padding: 0px;
   text-align: center;
 }
+/* fixat storleken på navigeringsmeny och bredden mellan varje lista */
+.navi li {
+  height: 50px;
+  width: 475px;
+}
 
+/* Färg och plats på navigeringsmeny */
 .navi {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: rgb(224, 219, 219);
+  background-color: rgba(255, 255, 255, 0);
 }
 
+/* rensat lite defult inställningar */
 .navi ul {
   padding: 0px;
   margin: 0px;
@@ -39,7 +42,7 @@ main {
   list-style-type: none;
 }
 .navi a {
-  color: rgb(0, 0, 0);
+  color: rgba(3, 0, 0, 0.973);
   text-decoration: none;
   padding: 8px;
   display: block;
@@ -48,53 +51,24 @@ main {
 }
 
 .navi a:hover {
-  background-color: rgba(0, 0, 0, 0.192);
+  background-color: rgba(250, 246, 246, 0.979);
 }
 
 .navi li {
   float: left;
 }
 footer {
-  padding: 120px 0px 0px 85%;
+  padding: 700px 0px 0px 90%;
 }
 
-.bild {
-  width: 120%;
-  height: 100%;
-  background-position: top;
-  margin: 0;
-}
-
-.background-container {
-    background-image: url('din-bild.jpg'); /* Sätt filvägen till bilden */
-    background-size: cover; /* Gör så att bilden täcker hela området */
-    background-position: center; /* Centrera bilden */
-    height: 100vh; /* Sätt höjden till hela skärmens höjd */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-
-
-/*
-.hero {
-  width: 100%;
-  height: 700px;
-  overflow: hidden;
-}
-
-.hero_container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.hero_container img {
-  width: 250%;
-  height: 75%;
-  overflow: hidden;
-  object-fit: cover;
-  object-position: bottom;
+/* Fixat till postion och storlek och textstill på mitt styke i startsidan */
+.startstyke {
+  position: absolute;
+  top: 17%;
+  left: 7%;
+  width: 600px;
+  color: black;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
