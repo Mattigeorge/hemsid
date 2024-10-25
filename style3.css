@@ -55,11 +55,6 @@ main {
     float: left;
 }
 
-footer {
-    padding: 700px 0px 0px 90%;
-}
-
-
 body {
     min-height: 100vh;
     background-image: url(bilder/pexels-googledeepmind-18069156.jpg);
@@ -69,63 +64,44 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.csharp2 img {
-    position: absolute;
-    top: 21%;
-    left: 4.4%;
-    width: 300px;
+footer {
+    padding: 700px 0px 0px 90%;
 }
 
-.csharp2 h2 {
-    position: absolute;
-    top: 29.8%;
-    left: 16%;
-    width: 550px;
-}
+.kurstabell {
 
-.htmlbild2 img {
-    position: absolute;
-    top: 49%;
-    left: 6.6%;
-    width: 170px;
-}
-
-.htmlbild2 h2 {
-    position: absolute;
-    top: 59%;
-    left: 16.2%;
-    width: 550px;
-}
-
-.cssbild2 img {
-
-    position: absolute;
-    width: 260px;
-    top: 23%;
-    left: 49.5%;
-}
-
-.cssbild2 h2 {
-
-    position: absolute;
-    width: 500px;
-    top: 30%;
-    left: 58%;
+    width: 1800px;
+    border-collapse: collapse;
+    margin: 0px 0px 0px 2.6%;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
 
 }
 
-.javascript2 img {
-
-    position: absolute;
-    width: 290px;
-    top: 53%;
-    left: 48.7%;
+.course-table th, .course-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
 }
 
-.javascript2 h2 {
+.course-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
 
-    position: absolute;
-    width: 550px;
-    top: 60%;
-    left: 60%;
+.course-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.select-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.select-btn:hover {
+    background-color: #0056b3;
 }

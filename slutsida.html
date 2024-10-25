@@ -1,40 +1,104 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Kursöversikt</title>
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      .rubrik {
-        text-align: center;
-        font-family: Georgia, "Times New Roman", Times, serif;
-      }
-    </style>
-  </head>
 
-  <body>
-    <header>
-      <h1 class="rubrik">Programmerings Kurser</h1>
-      <nav class="navi">
-        <ul>
-          <li><a href="hemsida.html">Startsida</a></li>
-          <li><a href="anmalan.html">Kurser</a></li>
-          <li><a href="slutsida.html">Kursöversikt</a></li>
-          <li><a href="kontakt.html">kontakta oss</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <title>Kursöversikt</title>
+  <link rel="stylesheet" href="style3.css" />
+  <style>
+    .rubrik {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+  </style>
+</head>
 
-    <main>
+<body>
+  <header>
+    <h1 class="rubrik">Programmerings Kurser</h1>
+    <nav class="navi">
+      <ul>
+        <li><a href="hemsida.html">Startsida</a></li>
+        <li><a href="anmalan.html">Kurser</a></li>
+        <li><a href="slutsida.html">Kursöversikt</a></li>
+        <li><a href="kontakt.html">kontakta oss</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     <div class="background-container">
-            <div class="overlay-text">
-                <h2>Välkommen till våra kurser</h2>
-                <p>Lär dig programmering på ett enkelt och roligt sätt!</p>
-            </div>
-    </main>
+      <div class="overlay-text">
+        <h2>Välkommen till våra kurser</h2>
+        <p>Lär dig programmering på ett enkelt och roligt sätt!</p>
+      </div>
+      <div>
+        <table class="kurstabell">
+          <thead>
+            <tr>
+              <th>Kurs</th>
+              <th>Startdatum</th>
+              <th>Kurs Period</th>
+              <th>Krav</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>C# Grund</td>
+              <td>1-Jan-2025</td>
+              <td>3 Månader</td>
+              <td>Programmering 1</td>
 
-    <footer>
-      <p>Kontaktinformation</p>
-    </footer>
-  </body>
+            </tr>
+            <tr>
+              <td>C# Fördjupning</td>
+              <td>1-Juni-2025</td>
+              <td>6 Månader</td>
+              <td>C# Grund</td>
+
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>1-April-2025</td>
+              <td>2 Månader</td>
+              <td>Programmering 1</td>
+
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>1-Juni-2025</td>
+              <td>2 Månader</td>
+              <td>HTML</td>
+
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>1-Jan-2025</td>
+              <td>3 Månader</td>
+              <td>Programmering 1</td>
+
+            </tr>
+            <tr>
+              <td>HTML,CSS,JavaScript Fördjupning</td>
+              <td>1-Jan-2025</td>
+              <td>3 Månader</td>
+              <td>HTML Grund, CSS Grund, JavaScript Grund</td>
+
+            </tr>
+          </tbody>
+
+
+
+
+        </table>
+
+
+      </div>
+  </main>
+
+  <footer>
+    <p>Kontaktinformation</p>
+  </footer>
+</body>
+
 </html>
