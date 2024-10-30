@@ -56,7 +56,7 @@ main {
 }
 
 footer {
-  padding: 700px 0px 0px 90%;
+  padding: 0px 0px 0px 90%;
 }
 
 /* Fixat till postion och storlek och textstill på mitt styke i startsidan */
@@ -72,33 +72,54 @@ footer {
 }
 
 
-/* Här har jag justerat dem små 4 bilderna för kurserna */
-.csharp img {
-  position: absolute;
-  top: 69%;
-  left: 0%;
-  width: 300px;
+.kurs-bilder {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 5%; 
+  margin-top: 600px; 
 }
 
-.htmlbild img {
-  position: absolute;
-  top: 70%;
-  left: 16%;
-  width: 150px;
+.kurs-bilder div {
+  flex: 1; 
+  text-align: center; 
 }
 
-.cssbild img {
-
-  position: absolute;
-  width: 249px;
-  top: 70%;
-  left: 25%;
+.kurs-bilder img {
+  width: 200px; 
+  max-width: 100%; 
 }
 
-.javascript img {
 
-  position: absolute;
-  width: 285px;
-  top: 70%;
-  left: 36%;
+
+@media (max-width: 768px) {
+  .kurs-bilder {
+      flex-direction: column; 
+      align-items: center; 
+      margin-top: 20px;
+      gap: 10px; 
+  }
+
+  .kurs-bilder img {
+      width: 80px; 
+  }
+
+  
+  .startstycke {
+      font-size: 14px; 
+      padding: 10px; 
+      text-align: center; 
+  }
+
+  
+  .nav1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0; 
+  }
+
+  .nav1 li {
+      margin: 5px 0; 
+  }
 }
