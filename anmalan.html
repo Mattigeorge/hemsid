@@ -36,85 +36,59 @@
         <h2>Välkommen till våra kurser</h2>
         <p>Lär dig programmering på ett enkelt och roligt sätt!</p>
       </div>
+      <!-- Formulär under kurserna -->
+      <div class="anmalan-form">
+        <h3>Anmäl dig till en kurs</h3>
+        <!-- Formulärinnehåll här -->
+      </div>
 
-      <!--4 kursbilder med text.-->
+      <!-- En formulär där man väljer kurs.-->
+      <div class="valavkurs">
+        <h2>Anmäl dig till en kurs</h2>
+        <form action="anmalan.html" method="post">
+          <label for="kursval">Välj kurs:</label>
+          <select id="kursval" name="kursval" required>
+            <option value="">Välj en kurs</option>
 
-      <div>
-        <div class="csharp2">
-          <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*_NVBTVdmjt3Qvq3CZOySXg.png" alt="C# Kurs">
-          <h3>Utforska kraften i C# och .NET. Denna kurs ger dig grunderna och mer avancerade tekniker för att utveckla
-            robusta och skalbara applikationer. Perfekt för dig som vill arbeta med desktop- och webbapplikationer!</h3>
-        </div>
-        <div class="htmlbild2">
-          <img src="https://soltech.net/wp-content/uploads/2014/05/HTML5.webp" alt="HTML Kurs">
-          <h3>Lär dig grunderna i HTML och hur du strukturerar webbplatser från grunden. Med denna kurs kommer du att
-            kunna skapa webbsidor som fungerar sömlöst på olika enheter och webbläsare. Idealisk start för alla blivande
-            webbutvecklare!</h3>
+            <optgroup label="C#">
+              <option value="csharp-grund">C# - Grundkurs</option>
+              <option value="csharp-avancerad">C# - Avancerad kurs</option>
+              <option value="csharp-fordjupning">C# - Fördjupningskurs</option>
+            </optgroup>
 
-        </div>
-        <div class="cssbild2">
-          <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo-2048x1280.png">
-          <h3>Ta dina HTML-kunskaper till nästa nivå med CSS. Lär dig skapa visuellt tilltalande och responsiva webbsidor
-            som anpassar sig till alla skärmar. Denna kurs lär dig de senaste teknikerna för modern webbdesign.</h3>
+            <optgroup label="HTML">
+              <option value="html-grund">HTML - Grundkurs</option>
+              <option value="html-avancerad">HTML - Avancerad kurs</option>
+              <option value="html-fordjupning">HTML - Fördjupningskurs</option>
+            </optgroup>
 
+            <optgroup label="CSS">
+              <option value="css-grund">CSS - Grundkurs</option>
+              <option value="css-avancerad">CSS - Avancerad kurs</option>
+              <option value="css-fordjupning">CSS - Fördjupningskurs</option>
+            </optgroup>
 
-        </div>
-        <div class="javascript2">
-          <img
-            src="https://media.licdn.com/dms/image/v2/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=zrcrB8lfoVmZo0LcSLgut3A_4PwE6YFe9EK3iy17L2Y">
-          <h3>Gör dina webbsidor mer interaktiva och dynamiska med JavaScript. Från grundläggande syntax till avancerade
-            funktioner, denna kurs hjälper dig att skapa engagerande användarupplevelser och förbättra dina webbsidor.
-          </h3>
-        </div>
+            <optgroup label="JavaScript">
+              <option value="javascript-grund">JavaScript - Grundkurs</option>
+              <option value="javascript-avancerad">JavaScript - Avancerad kurs</option>
+              <option value="javascript-fordjupning">JavaScript - Fördjupningskurs</option>
+            </optgroup>
+          </select>
 
+          <!-- Formulär för att fylla in personuppgifter-->
+          <label for="namn">Namn:</label>
+          <input type="text" id="namn" name="namn" placeholder="Ex: Matti George" required>
 
-        <!-- En formulär där man väljer kurs.-->
-        <div class="valavkurs">
-          <h2>Anmäl dig till en kurs</h2>
-          <form action="anmalan.html" method="post">
-            <label for="kursval">Välj kurs:</label>
-            <select id="kursval" name="kursval" required>
-              <option value="">Välj en kurs</option>
+          <label for="email">E-post:</label>
+          <input type="email" id="email" name="email" placeholder="Ex: Matti@hotmail.com" required>
 
-              <optgroup label="C#">
-                <option value="csharp-grund">C# - Grundkurs</option>
-                <option value="csharp-avancerad">C# - Avancerad kurs</option>
-                <option value="csharp-fordjupning">C# - Fördjupningskurs</option>
-              </optgroup>
+          <label for="nummer">Telefonnummer</label>
+          <input type="tel" id="Telefonnummer" name="Telefonnummer" placeholder="Ex: 0701234567" required>
 
-              <optgroup label="HTML">
-                <option value="html-grund">HTML - Grundkurs</option>
-                <option value="html-avancerad">HTML - Avancerad kurs</option>
-                <option value="html-fordjupning">HTML - Fördjupningskurs</option>
-              </optgroup>
-
-              <optgroup label="CSS">
-                <option value="css-grund">CSS - Grundkurs</option>
-                <option value="css-avancerad">CSS - Avancerad kurs</option>
-                <option value="css-fordjupning">CSS - Fördjupningskurs</option>
-              </optgroup>
-
-              <optgroup label="JavaScript">
-                <option value="javascript-grund">JavaScript - Grundkurs</option>
-                <option value="javascript-avancerad">JavaScript - Avancerad kurs</option>
-                <option value="javascript-fordjupning">JavaScript - Fördjupningskurs</option>
-              </optgroup>
-            </select>
-
-            <!-- Formulär för att fylla in personuppgifter-->
-            <label for="namn">Namn:</label>
-            <input type="text" id="namn" name="namn" placeholder="Ex: Matti George" required>
-
-            <label for="email">E-post:</label>
-            <input type="email" id="email" name="email" placeholder="Ex: Matti@hotmail.com" required>
-
-            <label for="nummer">Telefonnummer</label>
-            <input type="tel" id="Telefonnummer" name="Telefonnummer" placeholder="Ex: 0701234567" required>
-
-            <button type="submit">Anmäl dig</button>
-          </form>
-        </div>
-
+          <button type="submit">Anmäl dig</button>
+        </form>
+      </div>
+    </div>
   </main>
 
   <footer>

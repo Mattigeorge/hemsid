@@ -5,14 +5,14 @@
 }
 
 /* Här Har vi fixat klart body med backgrunds bild och textstil inom body och storleken. */
-body {
-
-}
+body {}
 
 
 
 main {
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
     padding: 0px;
     text-align: center;
 }
@@ -20,7 +20,8 @@ main {
 /* fixat storleken på navigeringsmeny och bredden mellan varje lista */
 .navi li {
     height: 50px;
-    width: 475px;
+    width: 350px;
+
 }
 
 /* Färg och plats på navigeringsmeny */
@@ -40,9 +41,8 @@ main {
     list-style-type: none;
 }
 
-/* Navi Text och färg på texten */
 .navi a {
-    color: rgba(0, 0, 0, 0.973);
+    color: rgba(3, 0, 0, 0.973);
     text-decoration: none;
     padding: 8px;
     display: block;
@@ -50,7 +50,6 @@ main {
     margin: 7px;
 }
 
-/* En hover när jag går över navi texten med musen.*/
 .navi a:hover {
     background-color: rgba(250, 246, 246, 0.979);
 }
@@ -60,7 +59,7 @@ main {
 }
 
 footer {
-
+    padding: 0px;
 }
 
 /* Min backgrundsbild i kurser. */
@@ -72,68 +71,6 @@ body {
     background-position: center;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-/* storlek och postion på dem 4 små kursbilderna. */
-.csharp2 img {
-    position: absolute;
-    top: 21%;
-    left: 20%;
-    width: 250px;
-}
-
-.csharp2 h3 {
-    position: absolute;
-    top: 24%;
-    left: 29%;
-    width: 450px;
-}
-
-.htmlbild2 img {
-    position: absolute;
-    top: 40%;
-    left: 21.7%;
-    width: 150px;
-}
-
-.htmlbild2 h3 {
-    position: absolute;
-    top: 42%;
-    left: 29%;
-    width: 450px;
-}
-
-.cssbild2 img {
-
-    position: absolute;
-    width: 230px;
-    top: 22%;
-    right: 40%;
-}
-
-.cssbild2 h3 {
-
-    position: absolute;
-    width: 450px;
-    top: 25%;
-    right: 24%;
-
-}
-
-.javascript2 img {
-
-    position: absolute;
-    width: 10%;
-    top: 41%;
-    right: 39.4%;
-}
-
-.javascript2 h3 {
-
-    position: absolute;
-    width: 450px;
-    top: 42%;
-    right: 24%;
-}
-
 
 /* CSS style på kursval formulären.*/
 .valavkurs {
@@ -161,8 +98,8 @@ body {
     font-weight: bold;
 }
 
-.valavkurs select, 
-.valavkurs input, 
+.valavkurs select,
+.valavkurs input,
 .valavkurs button {
     padding: 10px;
     border-radius: 4px;
@@ -182,10 +119,17 @@ body {
 
 
 .valavkurs {
-position: absolute;
-width: 100%;
-top: 56%;
-left: 42.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centrerar formuläret horisontellt */
+    justify-content: center;/ Centrerar formuläret vertikalt inom containern om höjden ändras / margin-top: 30px;/ Avstånd från kursinformationen ovanför / padding: 20px;
+    border-top: 2px solid #333;/ Skiljer formuläret från kurserna / width: 100%;/ Full bredd på containern /
+}
+
+.valavkurs form {
+    width: 300px;
+}
 }
 
 
@@ -194,3 +138,48 @@ left: 42.5%;
 
 
 
+.kurser {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.kurs {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* Mellanrum mellan bild och text */
+    border-bottom: 1px solid #ddd;/ Skiljelinje mellan kurser / padding-bottom: 15px;
+}
+
+.kurs img {
+    width: 100px;/ Storlek på kursbilden / height: auto;
+}
+
+.kurs-info {
+    max-width: 600px;
+}
+
+.kurs-info h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.kurs-info p {
+    margin: 5px 0 0;
+    font-size: 1em;
+}
+
+.anmalan-form {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #333;/ Skiljer formuläret från kurserna */
+}
+
+
+.bodaihop {
+
+    display: flex;
+    flex-direction: row;
+}

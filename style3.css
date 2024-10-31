@@ -11,6 +11,8 @@ body {}
 
 main {
     margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
     padding: 0px;
     text-align: center;
 }
@@ -18,7 +20,8 @@ main {
 /* fixat storleken på navigeringsmeny och bredden mellan varje lista */
 .navi li {
     height: 50px;
-    width: 475px;
+    width: 350px;
+
 }
 
 /* Färg och plats på navigeringsmeny */
@@ -55,6 +58,10 @@ main {
     float: left;
 }
 
+footer {
+    padding: 0px;
+}
+
 body {
     min-height: 100vh;
     background-image: url(bilder/pexels-googledeepmind-18069156.jpg);
@@ -65,17 +72,46 @@ body {
 }
 
 footer {
-    padding: 700px 0px 0px 90%;
+    padding: px 0px 0px 90%;
 }
 
-.kurstabell {
+.kurstabe {
 
-    width: 1800px;
+    width: 50%;
     border-collapse: collapse;
-    margin: 0px 0px 0px 2.6%;
-    font-size: 40px;
+    margin-left: 25%;
+    font-size: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 
 }
 
+.kurstabell {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+    background-color: rgba(143, 141, 141, 0.9);
+}
+
+.kurstabell th,
+.kurstabell td {
+    padding: 12px 15px;
+    border: 1px solid #ffffff;
+}
+
+.kurstabell th {
+    background-color: #f4f4f4;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.kurstabell tr:nth-child(even) {
+    background-color: rgba(198, 198, 210, 0.9);
+}
+
+.kurstabell tr:hover {
+    background-color: #e3e3e3ef;
+    color: #000000fc;
+    transition: background-color 0.2s;
+}
