@@ -2,6 +2,12 @@ body {
     background-image: url(bilder/pexels-googledeepmind-18069156.jpg);
 }
 
+.overlay-text  {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+ 
+
 /* CSS style på kursval formulären.*/
 .valavkurs {
     max-width: 400px;
