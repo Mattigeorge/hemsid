@@ -1,75 +1,5 @@
-/* Tar bort all margin och padding från defult */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Här Har vi fixat klart body med backgrunds bild och textstil inom body och storleken. */
-body {}
-
-
-
-main {
-    margin: 0px 0px 0px 0px;
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    text-align: center;
-}
-
-/* fixat storleken på navigeringsmeny och bredden mellan varje lista */
-.navi li {
-    height: 50px;
-    width: 350px;
-
-}
-
-/* Färg och plats på navigeringsmeny */
-.navi {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0);
-}
-
-/* rensat lite defult inställningar */
-.navi ul {
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    list-style-type: none;
-}
-
-.navi a {
-    color: rgba(3, 0, 0, 0.973);
-    text-decoration: none;
-    padding: 8px;
-    display: block;
-    text-align: center;
-    margin: 7px;
-}
-
-.navi a:hover {
-    background-color: rgba(250, 246, 246, 0.979);
-}
-
-.navi li {
-    float: left;
-}
-
-footer {
-    padding: 0px;
-}
-
-/* Min backgrundsbild i kurser. */
 body {
-    min-height: 100vh;
     background-image: url(bilder/pexels-googledeepmind-18069156.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* CSS style på kursval formulären.*/
@@ -130,13 +60,6 @@ body {
 .valavkurs form {
     width: 300px;
 }
-}
-
-
-
-
-
-
 
 .kurser {
     display: flex;
