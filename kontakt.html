@@ -23,63 +23,80 @@
   </header>
 
   <main>
-    <div>
-      <div>
-        <h2>Välkommen till våra kurser</h2>
-        <p>Lär dig programmering på ett enkelt och roligt sätt!</p>
-      </div>
+    <section class="background-container">
+      <div class="overlay-text">
+        <h2>Kontakta oss</h2>
+        <p>Välkommen att höra av dig till oss på Code Academy! Har du frågor om våra kurser, betalningsalternativ, eller
+          kanske bara vill veta mer om hur vi kan hjälpa dig på din kodningsresa? Vi är här för att hjälpa till!</p><br>
+        <h3>Så här kan du kontakta oss:</h3><br>
+        <ul class="kontakt-lista">
+          <li>E-post: Du kan nå oss på info@tucsweden.se. Vi försöker svara på alla mejl inom 24 timmar.</li>
+          <li>Telefon: Vill du hellre prata direkt? Ring oss på 0140-44 45 10. Våra öppettider är vardagar 09:00-17:00.</li>
+          <li>Besök oss: Om du är i närheten, kom förbi vårt kontor på Norra Svedengatan 13, 582 73 Linköping.</li>
+        </ul>
 
-    </div>
-    <div class="kurser">
-      <div class="kurs">
-        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*_NVBTVdmjt3Qvq3CZOySXg.png" alt="C# Kurs">
-        <div class="kurs-info">
-          <h3>C# Kurs</h3>
-          <p>Utforska kraften i C# och .NET. Lär dig grunderna och avancerade tekniker för att skapa robusta
-            applikationer.</p>
+      </div>
+      <div class="container">
+        <div class="contact-container">
+          <h2>Kontakta oss</h2>
+          <form action="#" method="post" class="contact-form">
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Ämne</label>
+            <input type="text" id="subject" name="subject">
+
+            <label for="message">Meddelande</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Skicka Meddelande</button>
+          </form>
         </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4177.123320293783!2d15.594294577963302!3d58.43450538232228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46596f7bebd18f03%3A0xc3553c64a8fe49f5!2sTUC%20Sweden%20Link%C3%B6ping!5e0!3m2!1ssv!2sse!4v1730410449417!5m2!1ssv!2sse"
+          height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-
-      <div class="kurs">
-        <img src="https://soltech.net/wp-content/uploads/2014/05/HTML5.webp" alt="HTML Kurs">
-        <div class="kurs-info">
-          <h3>HTML Kurs</h3>
-          <p>Lär dig grunderna i HTML och strukturera webbplatser från grunden.</p>
-        </div>
-      </div>
-
-      <div class="kurs">
-        <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo-2048x1280.png" alt="CSS Kurs">
-        <div class="kurs-info">
-          <h3>CSS Kurs</h3>
-          <p>Ta dina HTML-kunskaper till nästa nivå med CSS för att skapa responsiva och tilltalande sidor.</p>
-        </div>
-      </div>
-
-      <div class="kurs">
-        <img
-          src="https://media.licdn.com/dms/image/v2/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=zrcrB8lfoVmZo0LcSLgut3A_4PwE6YFe9EK3iy17L2Y"
-          alt="JavaScript Kurs">
-        <div class="kurs-info">
-          <h3>JavaScript Kurs</h3>
-          <p>Lär dig grunderna i JavaScript för att skapa interaktiva och dynamiska webbplatser.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Formulär under kurserna -->
-    <div class="anmalan-form">
-      <h3>Anmäl dig till en kurs</h3>
-      <!-- Formulärinnehåll här -->
-    </div>
-
-
-
+    </section>
   </main>
 
-  <footer>
-    <p>Kontaktinformation</p>
-  </footer>
+ <!-- Copy right texten -->
+ <footer class="footer">
+  <div class="footer-container">
+    <div class="row">
+      <div class="col">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="hemsida.html">Startsida</a></li>
+          <li><a href="anmalan.html">Kurser</a></li>
+          <li><a href="slutsida.html">Kursöversikt</a></li>
+          <li><a href="kontakt.html">Kontakta oss</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Adress</h3>
+          <ul>
+            <li>Norra Svedengatan 13, 582 73 Linköping</li>
+            <li>0140-44 45 10</li>
+            <li>Östergötaland Sverige</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="copyright">
+      <h3>
+        Copyright &#169; Matti George & 2024
+      </h3>
+    </div>
+  </div>
+</footer>
+
 </body>
 
 </html>

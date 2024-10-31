@@ -58,9 +58,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centrerar formuläret horisontellt */
-    justify-content: center;/ Centrerar formuläret vertikalt inom containern om höjden ändras / margin-top: 30px;/ Avstånd från kursinformationen ovanför / padding: 20px;
-    border-top: 2px solid #333;/ Skiljer formuläret från kurserna / width: 100%;/ Full bredd på containern /
+    justify-content: center; 
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 2px solid #333; 
+    width: 100%;
 }
 
 .valavkurs form {
@@ -79,11 +81,13 @@ body {
     align-items: center;
     gap: 15px;
     /* Mellanrum mellan bild och text */
-    border-bottom: 1px solid #ddd;/ Skiljelinje mellan kurser / padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
 }
 
 .kurs img {
-    width: 100px;/ Storlek på kursbilden / height: auto;
+    width: 100px;
+    height: auto;
 }
 
 .kurs-info {
@@ -103,7 +107,7 @@ body {
 .anmalan-form {
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 2px solid #333;/ Skiljer formuläret från kurserna */
+    border-top: 2px solid #333;
 }
 
 

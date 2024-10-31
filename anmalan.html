@@ -2,11 +2,11 @@
 <html lang="sv">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Kurser</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="style2.css" />
+  <link rel="stylesheet" href="style2.css"/>
   <style>
     .rubrik {
       text-align: center;
@@ -32,19 +32,17 @@
   </header>
 
   <!-- Text under navi bar-->
+
   <main>
-    <div class="background-container">
+    <section class="background-container">
       <div class="overlay-text">
         <h2>Välkommen till våra kurser</h2>
         <p>Lär dig programmering på ett enkelt och roligt sätt!</p>
       </div>
-      <!-- Formulär under kurserna -->
-      <div class="anmalan-form">
+      <!-- formulär där man väljer kurs-->
+      <div>
         <h3>Anmäl dig till en kurs</h3>
-        <!-- Formulärinnehåll här -->
       </div>
-
-      <!-- En formulär där man väljer kurs.-->
       <div class="valavkurs">
         <h2>Anmäl dig till en kurs</h2>
         <form action="anmalan.html" method="post">
@@ -77,32 +75,33 @@
             </optgroup>
           </select>
 
-          <!-- Formulär för att fylla in personuppgifter-->
+          <!--personuppgifter-->
           <label for="namn">Namn:</label>
           <input type="text" id="namn" name="namn" placeholder="Ex: Matti George" required>
 
           <label for="email">E-post:</label>
           <input type="email" id="email" name="email" placeholder="Ex: Matti@hotmail.com" required>
 
-          <label for="nummer">Telefonnummer</label>
+          <label for="Telefonnummer">Telefonnummer</label>
           <input type="tel" id="Telefonnummer" name="Telefonnummer" placeholder="Ex: 0701234567" required>
 
           <button type="submit">Anmäl dig</button>
         </form>
       </div>
-    </div>
+    </section>
   </main>
 
+  <!-- Copy right texten -->
   <footer class="footer">
     <div class="footer-container">
       <div class="row">
         <div class="col">
           <h3>Links</h3>
           <ul>
-            <a href="hemsida.html">Startsida</a>
-            <a href="anmalan.html">Kurser</a>
-            <a href="slutsida.html">Kursöversikt</a>
-            <a href="kontakt.html">Kontakta oss</a>
+            <li><a href="hemsida.html">Startsida</a></li>
+            <li><a href="anmalan.html">Kurser</a></li>
+            <li><a href="slutsida.html">Kursöversikt</a></li>
+            <li><a href="kontakt.html">Kontakta oss</a></li>
           </ul>
         </div>
         <div class="row">
@@ -116,7 +115,7 @@
           </div>
         </div>
       </div>
-      <hr />
+      <hr>
       <div class="copyright">
         <h3>
           Copyright &#169; Matti George & 2024
@@ -124,6 +123,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>

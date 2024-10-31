@@ -44,7 +44,7 @@ main {
   list-style-type: none;
 }
 
-/* fixat storleken på navigeringsmeny */
+
 .navi li {
   height: 50px;
   width: 350px;
@@ -102,7 +102,11 @@ main {
 footer {
   background: rgb(2, 0, 36);
   background: linear-gradient(0deg, rgb(0, 0, 5) 0%, rgba(255, 255, 255, 0) 100%);
-  padding: 24px;
+  padding: 24px; 
+}
+
+footer ul li {
+  list-style: none;
 }
 
 .footer h3 {
