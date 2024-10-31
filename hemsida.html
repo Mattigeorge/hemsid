@@ -3,28 +3,17 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Startsida</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    .rubrik {
-      text-align: center;
-      font-family: Georgia, "Times New Roman", Times, serif;
-    }
+  
 
-    body {
-      min-height: 100vh;
-      background-image: url(bilder/Hero.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    }
-  </style>
 </head>
 
 <body>
   <header>
     <!-- Rubrik och Navigerings Bar-->
+
     <h1 class="rubrik">Code Academy</h1>
     <nav class="navi">
       <ul>
@@ -35,11 +24,10 @@
       </ul>
     </nav>
   </header>
-
   <main>
-    <div>
+    <section class="main-container">
       <!--Text Stycke till framsidan-->
-      <div class="startstyke">
+      <div class="startstycke">
         <h2>Välkommen till våra kurser</h2>
         <p>Välkommen till CodeAcademy! Vi specialiserar oss på att erbjuda högkvalitativa onlinekurser inom
           webbutveckling, inklusive HTML, CSS, C#, och JavaScript.</p><br>
@@ -57,26 +45,46 @@
 
       <!-- 4 bilder för kurserna till framsidan-->
       <div class="kurs-bilder">
-        <div class="csharp">
           <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*_NVBTVdmjt3Qvq3CZOySXg.png" alt="C# Kurs">
-        </div>
-        <div class="htmlbild">
           <img src="https://soltech.net/wp-content/uploads/2014/05/HTML5.webp" alt="HTML Kurs">
-        </div>
-        <div class="cssbild">
           <img src="https://delta-dev-software.fr/wp-content/uploads/2024/05/CSS-Logo-2048x1280.png" alt="CSS kurs">
-        </div>
-        <div class="javascript">
           <img
             src="https://media.licdn.com/dms/image/v2/D4E12AQFfe1nZbaWdMw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698604163003?e=2147483647&v=beta&t=zrcrB8lfoVmZo0LcSLgut3A_4PwE6YFe9EK3iy17L2Y"
             alt="JavaScript Kurs">
-        </div>
-
       </div>
+    </section>
   </main>
 
-  <footer>
-    <p>Kontaktinformation</p>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="row">
+        <div class="col">
+          <h3>Links</h3>
+          <ul>
+            <a href="hemsida.html">Startsida</a>
+            <a href="anmalan.html">Kurser</a>
+            <a href="slutsida.html">Kursöversikt</a>
+            <a href="kontakt.html">Kontakta oss</a>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h3>Adress</h3>
+            <ul>
+              <li>Norra Svedengatan 13, 582 73 Linköping</li>
+              <li>0140-44 45 10</li>
+              <li>Östergötaland Sverige</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright">
+        <h3>
+          Copyright &#169; Matti George & 2024
+        </h3>
+      </div>
+    </div>
   </footer>
 </body>
 
