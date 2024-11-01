@@ -55,12 +55,12 @@ body {
 
 @media (max-width: 768px) {
     .kurstabell {
-        width: 90%; /* Ger tabellen lite mer utrymme på mindre skärmar */
-        margin: 0 auto; /* Centrerar tabellen på mindre skärmar */
+        width: 90%; 
+        margin: 0 auto; 
     }
 
     .kurstabell th, .kurstabell td {
-        font-size: 0.9em; /* Minskar textstorleken för att passa mindre skärmar */
-        padding: 8px 10px; /* Mindre padding för bättre passform */
+        font-size: 0.9em; 
+        padding: 8px 10px;
     }
 }
